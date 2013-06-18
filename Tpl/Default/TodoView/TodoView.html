@@ -1,0 +1,9 @@
+<script type="text/template" id="TodoView_TodoView">
+	<div class="view">
+		<input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %>>
+		<label><%= title %></label>
+		<button class="destroy"></button>
+	</div>
+	<input class="edit" value="<%= title %>">
+</script>
+<script type="text/javascript">var TodoView_TodoView = {:json_encode($TodoView_TodoView)};</script>
